@@ -53,6 +53,25 @@ p {
     font-size: 23px;
 }
 
+.about-header h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.about-header h2 {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+    line-height: 80px;
+}
+
+.about-header {
+    padding: 160px 20px;
+}
+
+.about-header-content {
+    margin: 30px;
+}
+
 .btn-branding {
     background-color: var(--branding-color);
     border-radius: 4px;
@@ -89,6 +108,11 @@ p {
     }
 
     .project-description {
+        padding: 0;
+        text-align: center;
+    }
+
+    .about-header {
         padding: 0;
         text-align: center;
     }
